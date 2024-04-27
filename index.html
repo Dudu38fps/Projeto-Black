@@ -10,7 +10,23 @@
 <body>
     <main>
         <section id="form"> 
-            <h1>Login</h1>
+            <h1> Faça seu Login</h1>
+            <form action="text.php" method="post" autocomplete="on">
+                <p>
+                    <label for="iemail">E-mail</label>
+                    <input type="email" name="email" id="iemail" required autocomplete="email" >
+            </p>
+            <p>
+                <label for="isenha">Senha</label>
+                <input type="password" name="senha" id="isenha" minlength="5" maxlength="20" required autocomplete="current-password">
+            </p>
+
+            <p>
+                <input type="submit" value="Entrar">
+                <a href="@">Esqueci a senha</a>
+            </p>
+
+            </form>
         </section>
     </main>
     

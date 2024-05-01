@@ -16,6 +16,10 @@
     main > section#form {
         font-size: 1.1em;
     }
+
+    main > section#form > h1 {
+        width: 50vw;
+    }
     
 }
 
@@ -36,4 +40,7 @@
         font-size: 1.2em;
     }
     
+    main > section#form > h1 {
+        width: 60vw;
+    }
 }

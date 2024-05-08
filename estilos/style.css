@@ -58,7 +58,7 @@ main > section#form > form > input:focus-within {
 
 main > section#form > h1 {
     font-size: 2em;
-    width: 355px;
+    width: 98%;
     margin-bottom: 10px;
     background-color: rgba(24, 23, 23, 0.322);
     border-radius: 8px;
